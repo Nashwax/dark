@@ -1,0 +1,135 @@
+html,body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+    background-image: url("pic/parallax4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.bgimg{
+	width: 100%;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	
+}
+.bgimg1{
+	background-image: url();
+   	height: 100%;	
+}
+.bgimg2{
+	background-image: url();
+   	height: 50%;	
+}
+.bgimg3{
+	background-image: url();
+   	height: 32%;	
+}
+.before{
+    height: 50px;
+    background-color: black;
+}
+.coter{
+    width: 50%;
+     background-color: rgba(0,0,0,0.6);
+    color:orange;
+    padding-bottom: 55px;
+    padding-top: 55px;
+    margin-bottom: 100px;
+}
+.white{
+    background-color:rgba(0,0,0,0.6);
+    height: 700px;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.navbar{
+    padding-top: 30px;
+    background-color: black;
+    
+}
+.nav-link{
+    color: orange;
+    margin-left: 100px;
+    
+}
+.nav-link:hover{
+    color:burlywood;
+}
+.one{
+    background-color: rgba(0,0,0,0.6);
+    padding: 55px;
+    color:orange;
+    margin-top: 40px;
+    
+}
+.two{
+    
+    background-color: rgba(0,0,0,0.6);
+    padding: 55px;
+    margin-top: 50px;
+    color:orange;
+    
+}
+.tree{
+    height: 150px;
+}
+
+ .carousel-inner img {
+      width: 100%;
+      height: 70%;
+   
+      
+     
+  }
+.dark{
+    background-color:rgba(0,0,0,0.6); 
+}
+.fa{
+    color:orangered;
+    font-size: 70px;
+}
+.sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+}
+@media(max-width:600px){
+    
+    .coter{
+    width: 100%;
+}
+    .navbar{
+    padding-top: 0px;
+    
+    
+}
+.nav-link{
+    
+    margin-left: 0px;
+}
+    .before{
+    height: 0px;
+    
+}
+    .tree{
+    height: 0px;
+}
+    .white{
+        background-color:rgba(0,0,0,0.6);
+        height: 250px;
+        
+    }
+    .card {
+        width: 100%;
+    }
+}
